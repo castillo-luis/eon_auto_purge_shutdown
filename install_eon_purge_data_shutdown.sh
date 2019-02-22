@@ -1,9 +1,6 @@
 #!/bin/env bash
 set -e
 
-# install via curl
-# curl -sL https://gist.github.com/chasebolt/fd5210b4c2a44a2b0db383162a66632c/raw/install_eon_purge_data.sh | bash
-
 # create purge script
 mkdir -p /data/local
 cat <<'EOF' > /data/local/purge-data.sh
